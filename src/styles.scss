@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+body
+{
+    background-color: rgb(49, 47, 47);
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+a
+{
+    text-decoration: none;
+    color:wheat;
+}
+
+a:hover
+{
+    color:rgb(218, 87, 87);
+    text-decoration: none;
+}
+

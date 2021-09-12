@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="row py-5">
+        <div *ngFor='let article of technologyNews' class="col-md-6">
+            <a (click)="openLink(article.url)">
+                <h6 class="m-3 p-3">{{article.title}}</h6>
+                <img class="w-75 rounded mx-auto d-block" [src]="article.urlToImage" [alt]="article.title">
+           </a>
+        </div>
+    </div>
+</div>
